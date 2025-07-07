@@ -99,3 +99,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Griffy&display=swap');
+
+@layer components {
+  .gothic-text {
+    font-family: 'Griffy', cursive;
+  }
+  
+  .horror-title {
+    font-family: 'Nosifer', cursive;
+  }
+  
+  .creepy-text {
+    font-family: 'Creepster', cursive;
+  }
+}
+}
