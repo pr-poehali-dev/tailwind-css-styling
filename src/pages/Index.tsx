@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import Icon from "@/components/ui/icon";
+import ReferralCard from "@/components/ReferralCard";
 
 const Index = () => {
   const [userPoints, setUserPoints] = useState(1337);
@@ -78,6 +79,10 @@ const Index = () => {
           <h3 className="text-4xl font-bold text-center mb-12 horror-title text-horror-blood">
             РЕФЕРАЛЬНАЯ СИСТЕМА
           </h3>
+
+          <div className="max-w-2xl mx-auto mb-12">
+            <ReferralCard />
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Referral Stats */}
